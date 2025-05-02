@@ -1,0 +1,154 @@
+body{
+    display: inline;
+}
+.container{
+    text-align: center;
+    font-size: 30px;
+    border: dotted;
+    border-radius: 6px;
+    width: 300px;
+    margin: 10px;
+}
+
+.Count{
+    color:rgb(52, 137, 109);
+}
+
+.Ib , .Rb , .Db{
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-color: blueviolet;
+    border-radius: 6px;
+    color: gray;
+}
+
+.container button:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-color: transparent;
+}
+
+.CPcontainer{
+    color: white;
+    text-align:center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    margin: 10px;
+}
+
+.CPcontainer h2{
+    font-size: 40px;
+}
+
+.CPcontainer label{
+    padding: 10px;
+    margin: 10px;
+}
+
+.Fname{
+    text-align: center;
+    background-color:blueviolet;
+    max-width: min-content;
+    color: white;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: crosshair;
+}
+
+.Fname ul li{
+    text-align: left;
+    margin: 0;
+}
+.Fname ul li:hover{
+    cursor: pointer;
+}
+
+.Fname button{
+    background-color: white;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.Ccontainer{
+    color: #fcf9f9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    border-color: blueviolet;
+    border-radius: 6px;
+    border: double;
+    margin: 10px;
+    width: min-content;
+    background-image: url('./assets/car.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.Ccontainer input{
+    margin: 5px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border-radius: 4px;
+}
+
+.Ccontainer button{
+    background-color: transparent;
+    border-color: rgb(4, 0, 0);
+    border-radius: 4px;
+    color: white;
+}
+.Ccontainer  button:hover{
+    border-color: transparent;
+    background-color: blueviolet;
+}
+
+.Ccontainer li:hover{
+    cursor: crosshair;
+}
+
+.Tname{
+    border: dotted;
+    border-radius: 4px;
+    border-color: cadetblue;
+    width: min-content;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('./assets/Egg.jpeg');
+    background-size: cover;
+}
+
+.Tname input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.525);
+    padding: 5px;
+    margin: 10px;
+}
+
+.Tname button{
+    background-color: white;
+    border-color: blueviolet;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.Tname button:hover{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.Tname ul li button{
+    background-color: red;
+    border-color: yellow;
+    color: white;
+}
+
+.Tname ul li{
+    color: rgb(69, 2, 113);
+}
